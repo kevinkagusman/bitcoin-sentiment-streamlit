@@ -1,8 +1,5 @@
-# Pakai versi pinned untuk stabilitas di Streamlit Cloud (April 2026)
 streamlit==1.39.0
-# torch versi CPU-only, lebih kecil dari versi default (~200MB vs ~750MB)
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.4.1+cpu
+torch==2.4.1
 transformers==4.44.2
 huggingface_hub>=0.24.0
 numpy==1.26.4
